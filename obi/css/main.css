@@ -5,7 +5,15 @@ html {
 body {
   display: flex;
   min-height: 100%;
-  background-color: #02c7b2;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  background: #06a0a5 url(../assets/logo.png) no-repeat center center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 .main {
@@ -14,7 +22,16 @@ body {
   justify-content: center;
 }
 
-.logo {
-  align-self: center;
-  justify-self: center;
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+.contact img {
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
